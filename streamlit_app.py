@@ -21,4 +21,4 @@ streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 # Display the table on the page.
 
 #Choose the fruit name column as index
-
+my_fruit_list = my_fruit_list.set_index
